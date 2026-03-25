@@ -55,7 +55,19 @@ export default function Home() {
               </h1>
 
               <div className="w-72 sm:w-96">
-                <div className="h-6 w-full rounded-t-full border-t-[3px] border-white/90" />
+                <svg
+                  viewBox="0 0 487 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-auto w-full"
+                >
+                  <path
+                    d="M4.00098 30C73.6316 10.3798 266.915 -17.0885 483.001 30"
+                    stroke="white"
+                    strokeWidth="8"
+                    strokeLinecap="round"
+                  />
+                </svg>
               </div>
 
               <p className="max-w-xl text-sm leading-6 text-white/70 sm:text-base">
