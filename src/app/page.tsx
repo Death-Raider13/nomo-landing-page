@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-full w-full bg-glow">
+    <div className="min-h-full w-full bg-glow overflow-x-hidden">
       <div className="bg-grid">
         <header className="border-b border-white/10">
           <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-5 sm:px-6">
